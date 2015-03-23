@@ -1,0 +1,41 @@
+.radiocontainer {
+    margin-bottom:5px;
+}
+#radio {
+   width: 135px; height: 80px;
+    background: -webkit-linear-gradient(#777, #444, #333, #000);
+    border: 6px #333 solid;border-radius: 8px;
+    font-size: 10px;
+}
+#radio>div, #radio>button {
+    margin: 4px 0px 10px 4px;
+    float: left;
+    background: inherit;
+}
+#radio>button {
+    margin-top: 7px !important;
+    width: 18px; height: 18px;
+    border: 2px #555 solid;border-radius: 2px;
+    font-size: 9px;
+}
+#play {
+    margin-left: 9px !important;
+}
+#loud {
+    width: 63px; height: 22px;
+    border: 2px #555 solid;border-radius: 2px;
+
+}
+#wusb {
+    width: 115px; height: 30px;
+    border: 3px #111 solid; border-radius: 10px;
+    clear: both;
+    margin-bottom: -1px !important;
+    margin-top: 4px !important;
+
+}
+#radiotitle {
+    color: #bbb;
+    text-align: center;
+    margin-top: 5%;
+}

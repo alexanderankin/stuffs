@@ -1,0 +1,60 @@
+.cstyled-body {
+	background-color: #cdc;
+}
+.cstyled-main-container {
+	background-color: #fff;
+	margin-top: 9px;
+	max-width: 990px;
+}
+
+.cstyled-panel-heading {
+	font-weight: bold;
+}
+
+.cstyled-nav>li>a {
+	padding: 5px 10px !important;
+	font-size: .9em !important;
+	transition-property: background;
+	transition-duration: .2s;
+	transition-timing-function: linear;
+}
+
+.cstyled-subnav {
+	margin-left: 10px;
+	visibility: hidden;
+	display: none;
+
+}
+
+.cstyled-subnav>li>a {
+	padding: 5px 10px !important;
+	font-size: .9em !important;
+	transition-property: inherit;
+	transition-duration: inherit;
+	transition-timing-function: inherit;
+}
+
+.cstyled-nav>li:hover > ul {
+	visibility: visible;
+	display: block;
+
+}
+
+/* custom panel css here */
+.panel-info>.panel-heading a {
+	color: #005290;
+}
+
+.panel-info>.panel-heading a:hover {
+	color: #004270;
+}
+
+.cstyled-body-left {
+	width: 130px !important;
+}
+.cstyled-body-left>div {
+	width: inherit;
+}
+.cstyled-body-right {
+	float: right !important;
+}

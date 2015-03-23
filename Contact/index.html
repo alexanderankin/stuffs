@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- customstyled.css - my custom styles -->
+	<link rel="stylesheet" href="/css/cstyled-header.css">
+	<link rel="stylesheet" href="/css/cstyled-body.css">
+	<link rel="stylesheet" href="/css/radio.css">
+
+	<!-- Latest compiled and minified CSS (well, a local copy) -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> -->
+
+	<!-- Latest compiled and minified JavaScript (well, a local copy) -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+	<script src="/js/radio.js"></script>
+	<title>WUSB.fm</title>
+	<script>
+		$(document).ready(function(){
+    		$( "#play" ).on( "click", play );
+    		$( "#stop" ).on( "click", stop );
+    		$( ".playradiofromcorner" ).on( "click", play );
+		});
+	</script>
+</head>
+<body class="cstyled-body">
+	<div class="container-fluid cstyled-main-container">
+		
+		<div id="cstyled-header" class="row">
+			<div id="cstyled-header-left">
+			</div>
+			<div id="cstyled-header-right" class="col-md-10">
+				<h3>On Air</h3>
+				<p class="lead"><small><a href="">Rockin' Iration</a></small></p>
+				<span>Tune in: <small><a class="playradiofromcorner" href="#">High</a>, <a class="playradiofromcorner" href="#">Low</a></small></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 cstyled-body-left">
+				<div class="radiocontainer">
+					<div id="radio">
+						<div id="wusb"><div id="radiotitle">WUSB FM Stream</div></div>
+						<button style="color:#fff" id="play">&rsaquo;</button>
+						<button style="color:#fff" id="stop"><sup>&#x2596</sup></button>
+						<div id="loud"></div>
+					</div>
+				</div>
+				<div>
+					<ul class="nav nav-pills nav-stacked cstyled-nav">
+						<li role="presentation"><a href="/">Home</a></li>
+						<li role="presentation"><a href="/About">About</a></li>
+						<li role="presentation"><a href="/Schedule">Schedule</a></li>
+						<li role="presentation"><a href="/Pledge">Pledge</a></li>
+						<li role="presentation" class="active"><a href="/Contact">Contact</a>
+							<ul class="nav nav-pills nav-stacked cstyled-subnav">
+								<li role="presentation"><a href="">Facebook Page</a></li>
+								<li role="presentation"><a href="">Twitter</a></li>
+							</ul>
+						</li>
+						<li role="presentation"><a href="/Sports">Sports</a></li>
+						<li role="presentation"><a href="/Newsletter">Newsletter Signup</a></li>
+						<li role="presentation"><a href="/Stream">Stream Help</a></li>
+					</ul>
+				</div>
+				<div>
+				<div class="panel">
+					<div class="panel-body">
+						<img src="/images/WUSBlogo.png" height="30px" width="30px" alt="">
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-10 cstyled-body-right">
+				<h2>Contact</h2>
+				<p>Call the studio at (631) 632-WUSB</p>
+				<p>AIM: WUSBDJ</p>
+				<p>Please contact us by email using the drop down menu and contact form below.</p>
+				<div class="panel panel-default">
+					<div class="panel-body">
+					</div>
+				</div>
+  			</div>
+		</div>
+	</div>
+	<!-- Bootstrap's js (two script tags) -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>

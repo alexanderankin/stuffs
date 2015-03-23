@@ -1,0 +1,50 @@
+
+#cstyled-header {
+	height: 100px;
+	margin-bottom: 20px;
+}
+#cstyled-header-left {
+	height: inherit;
+	width: 20%;
+	min-width: 198px;
+	margin-right: -5%;
+	background-image: url('/images/WUSBlogo.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+
+	/*
+	 * This is taken from bootstraps col-**-*
+	 * css style info
+	 */
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#cstyled-header-right {
+	height: inherit;
+	float: right;
+	text-align: right;
+	background-image: url('/images/header-right-graphic.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#cstyled-header-right>h3 {
+	margin: 5px -6px 0 0;
+	font-size: .9em;
+}
+#cstyled-header-right>p{
+	margin: 5px -6px -5px 0;
+	font-size: .9em;
+	font-weight: bold;
+
+}
+#cstyled-header-right>span {
+	margin: 0 -6px 0 0;
+	font-size: .9em;
+}
+
+#cstyled-header-logo {
+	margin: 0 -15px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- customstyled.css - my custom styles -->
+	<link rel="stylesheet" href="/css/cstyled-header.css">
+	<link rel="stylesheet" href="/css/cstyled-body.css">
+	<link rel="stylesheet" href="/css/radio.css">
+
+	<!-- Latest compiled and minified CSS (well, a local copy) -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> -->
+
+	<!-- Latest compiled and minified JavaScript (well, a local copy) -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+	<script src="/js/radio.js"></script>
+	<title>WUSB.fm</title>
+	<script>
+		$(document).ready(function(){
+    		$( "#play" ).on( "click", play );
+    		$( "#stop" ).on( "click", stop );
+    		$( ".playradiofromcorner" ).on( "click", play );
+		});
+	</script>
+</head>
+<body class="cstyled-body">
+	<div class="container-fluid cstyled-main-container">
+		
+		<div id="cstyled-header" class="row">
+			<div id="cstyled-header-left">
+			</div>
+			<div id="cstyled-header-right" class="col-md-10">
+				<h3>On Air</h3>
+				<p class="lead"><small><a href="">Rockin' Iration</a></small></p>
+				<span>Tune in: <small><a class="playradiofromcorner" href="#">High</a>, <a class="playradiofromcorner" href="#">Low</a></small></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 cstyled-body-left">
+				<div class="radiocontainer">
+					<div id="radio">
+						<div id="wusb"><div id="radiotitle">WUSB FM Stream</div></div>
+						<button style="color:#fff" id="play">&rsaquo;</button>
+						<button style="color:#fff" id="stop"><sup>&#x2596</sup></button>
+						<div id="loud"></div>
+					</div>
+				</div>
+				<div>
+					<ul class="nav nav-pills nav-stacked cstyled-nav">
+						<li role="presentation" class="active"><a href="/">Home</a></li>
+						<li role="presentation"><a href="/About">About</a></li>
+						<li role="presentation"><a href="/Schedule">Schedule</a></li>
+						<li role="presentation"><a href="/Pledge">Pledge</a></li>
+						<li role="presentation"><a href="/Contact">Contact</a>
+							<ul class="nav nav-pills nav-stacked cstyled-subnav">
+								<li role="presentation"><a href="">Facebook Page</a></li>
+								<li role="presentation"><a href="">Twitter</a></li>
+							</ul>
+						</li>
+						<li role="presentation"><a href="/Sports">Sports</a></li>
+						<li role="presentation"><a href="/Newsletter">Newsletter Signup</a></li>
+						<li role="presentation"><a href="/Stream">Stream Help</a></li>
+					</ul>
+				</div>
+				<div>
+				<div class="panel">
+					<div class="panel-body">
+						<img src="/images/WUSBlogo.png" height="30px" width="30px" alt="">
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-10 cstyled-body-right">
+				<div class="panel panel-info">
+					<div class="panel-heading cstyled-panel-heading"><h3 class="panel-title"><a href="">Radiothon</a></h3></div>
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="panel-footer">
+						Posted by {{<a href="">Angelo</a>}} on {{Sun, 03/08/2015 - 12:01pm}}
+					</div>
+				</div>
+				<div class="panel panel-info">
+					<div class="panel-heading cstyled-panel-heading"><a href="">Radiothon</a></div>
+					<div class="panel-body">
+					</div>
+					<div class="panel-footer">
+						Posted by {{<a href="">Angelo</a>}} on {{Sun, 03/08/2015 - 12:01pm}}
+					</div>
+				</div>
+				<div class="panel panel-info">
+					<div class="panel-heading cstyled-panel-heading">
+						<a href="">Radiothon</a>
+					</div>
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="panel-footer">
+						Posted by {{<a href="">Angelo</a>}} on {{Sun, 03/08/2015 - 12:01pm}}
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<em>Recent Playlists</em>
+						<ul class="list-unstyled">
+							<li>Interzone with Chris Phillips playlist for 03/21/2015</li>
+							<li>Country Pocket playlist for 03/20/2015</li>
+							<li>Fermented Radio playlist for 03/20/2015</li>
+							<li>Radio Free J-Ro playlist for 03/20/2015</li>
+							<li>Witching Hour ;...; playlist for 03/20/2015</li>
+							<li>Bustin' Out Blue playlist for 03/20/2015</li>
+						</ul>
+						<a href="#">More...</a>
+					</div>
+					
+				</div>
+			</div>
+
+			
+		</div>
+		<div class="row">
+
+		</div>
+	</div>
+	<!-- Bootstrap's js (two script tags) -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>
